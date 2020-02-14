@@ -1,3 +1,5 @@
+import React from 'react';
+import NavBar from '../navBar/NavBar'
 /*
 
 MAIN
@@ -5,12 +7,6 @@ MAIN
 - show catering button
 - show famous sauce button
 - since 1980 image
-
-Nav bar
-- order online
-- about us
-- jobs
-- location(s)
 
 Footer
 - Facebook!!
@@ -23,13 +19,26 @@ Footer
 - copyright "Copyright © 2004,2009,2013,2015,2017 Little Lucca Specialty Sandwich Shop, All Rights Reserved."
 */
 
-import React from './node_modules/react';
 
 function Home() {
     return (
         // HOME WRAPPER
         <div>
             Hello From the home page!!
+
+            {/* NAV BAR Sits at top of home */}
+            {/* Style Nav Seperately */}
+            <NavBar/>
+
+            {/* FOOTER matches nav AND STYLE */}
+            <footer>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Menu</a> 
+                <a href="">Catering</a> 
+                <a href="">Famous Sauce</a>              
+            </nav>
+            </footer>
         </div>
     )
 }
