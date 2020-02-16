@@ -1,5 +1,8 @@
 import React from 'react';
+
 import brand from '../../docsFolder/brand.jpeg';
+import CTA from '../cta menu/CTA';
+
 /*
 
 MAIN
@@ -25,6 +28,8 @@ function Home() {
         <div>
             Hello From Home Component
             <img src={brand} alt="Since 1980 Little Luca Speciality Sandwich Shop"/>
+
+            <CTA/>
         </div>
     )
 }
