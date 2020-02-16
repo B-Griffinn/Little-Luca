@@ -6,7 +6,14 @@ import {
     Link,
     NavLink
 } from "react-router-dom"
-import OrderOnline from './OrderOnline'
+
+// COMPONENTS 
+import OrderOnline from './OrderOnline';
+import AboutUs from './AboutUs';
+import EmailList from './EmailList';
+import Jobs from './Jobs';
+import Locations from './Locations';
+
 /* This component will hold:
 - order online 
 - about us
@@ -29,8 +36,26 @@ function CTA() {
                     <Link to="jobs">Job Opportunities</Link>
                         <br/>
                     <Link to="locations">Locations</Link>
+
+
                     <Route exact path="/orderonline">
-                        <OrderOnline/>
+                        <OrderOnline />
+                    </Route>
+
+                    <Route path="/aboutus">
+                        <AboutUs />
+                    </Route>
+
+                    <Route path="/emiallist">
+                        <EmailList />
+                    </Route>
+
+                    <Route path="/jobs">
+                        <Jobs />
+                    </Route>
+
+                    <Route path="/locations">
+                        <Locations />
                     </Route>
                 </div>
             </Router>

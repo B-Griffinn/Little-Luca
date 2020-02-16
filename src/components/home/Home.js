@@ -26,9 +26,7 @@ Footer
 function Home() {
     return (
         <div>
-            Hello From Home Component
             <img src={brand} alt="Since 1980 Little Luca Speciality Sandwich Shop"/>
-
             <CTA/>
         </div>
     )
