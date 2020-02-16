@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../navBar/NavBar'
+import brand from '../../docsFolder/brand.jpeg';
 /*
 
 MAIN
@@ -22,23 +22,9 @@ Footer
 
 function Home() {
     return (
-        // HOME WRAPPER
         <div>
-            Hello From the home page!!
-
-            {/* NAV BAR Sits at top of home */}
-            {/* Style Nav Seperately */}
-            <NavBar/>
-
-            {/* FOOTER matches nav AND STYLE */}
-            <footer>
-            <nav>
-                <a href="">Home</a>
-                <a href="">Menu</a> 
-                <a href="">Catering</a> 
-                <a href="">Famous Sauce</a>              
-            </nav>
-            </footer>
+            Hello From Home Component
+            <img src={brand} alt="Since 1980 Little Luca Speciality Sandwich Shop"/>
         </div>
     )
 }

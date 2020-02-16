@@ -20,16 +20,18 @@ Nav bar
     - location(s)
 */
 
-function NavBar(){
+function Footer(){
     return (
         <Router>
         <div>
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/menu">Menu</Link>
-                <Link to="/catering">Catering</Link>
-                <Link to="/famoussauce">Famous Sauce</Link>
-            </nav> 
+            <footer>
+                <nav>
+                    <Link to="/">Home</Link>
+                    <Link to="/menu">Menu</Link>
+                    <Link to="/catering">Catering</Link>
+                    <Link to="/famoussauce">Famous Sauce</Link>
+                </nav> 
+            </footer>    
 
 
 
@@ -50,4 +52,4 @@ function NavBar(){
 
 
 
-export default NavBar;
+export default Footer;
