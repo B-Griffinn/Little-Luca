@@ -7,7 +7,6 @@ console.log(menu)
 function Menu() {
     return (
         <div>
-            Hello From Menu Component
             <img src={menu} alt="PDF MENU"/>
         </div>
     )

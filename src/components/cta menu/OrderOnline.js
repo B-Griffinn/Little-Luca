@@ -14,9 +14,9 @@ function OrderOnline() {
             <div className="order-forms">
                 Location            || Menu - Order Form
 <br/>
-                South San Francisco || Menu - Order Form
+                South San Francisco || Menu - <a href="http://www.littlelucca.com/LittleLucca-SSF-FAXOrder.pdf" target="_blank">Order Form</a>
 <br/>
-                Burlingame          || Menu - Order Form
+                Burlingame          || Menu - <a href="http://www.littlelucca.com/LittleLucca-Burlingame-FAXOrder.pdf" target="_blank">Order Form</a>
             </div>
         </div>
     )

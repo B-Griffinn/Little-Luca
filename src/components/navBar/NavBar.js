@@ -10,6 +10,9 @@ import {
 
 import Menu from '../menu/Menu'
 import Home from '../home/Home'
+import Catering from './Catering'
+import FamousSauce from './FamousSauce'
+import ContactUs from './ContactUs'
 
 // import Menu from '../menu/Menu';
 /*
@@ -29,6 +32,7 @@ function NavBar(){
                 <Link to="/menu">Menu</Link>
                 <Link to="/catering">Catering</Link>
                 <Link to="/famoussauce">Famous Sauce</Link>
+                <Link to="/contactus">Contact Us</Link>
             </nav> 
 
 
@@ -40,8 +44,15 @@ function NavBar(){
                 <Route path="/menu">
                     <Menu/>
                 </Route>
-                <Route path="/catering">Catering</Route>
-                <Route path="/famoussauce">Famous Sauce</Route>
+                <Route path="/catering">
+                    <Catering />
+                </Route>
+                <Route path="/famoussauce">
+                    <FamousSauce/>
+                </Route>
+                <Route path="/contactus">
+                    <ContactUs />
+                </Route>
             </Switch>
         </div>
         </Router>

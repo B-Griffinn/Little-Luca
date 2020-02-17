@@ -3,7 +3,7 @@ import React from 'react';
 function EmailList() {
     return (
         <div>
-            LittleLucca Deli's Facebook page is here...
+           NO WORKING LINK AT THIS TIME
         </div>
     )
 }
