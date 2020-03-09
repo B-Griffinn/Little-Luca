@@ -1,23 +1,33 @@
 .cta-wrapper {
-    border: 1px solid black;
-    
+    /* border: 1px solid blue; */
+
+    width: 500px;
+
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-evenly;
 
 }
 
-
-
-.cta-routes {
-    /* border: 1px solid black;  */
-}
-
-.cta-links {
-    /* border: 1px solid black;  */
+.cta-link-wrapper {
+    /* border: 1px solid black; */
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
-    margin-right: 50%;
+    width: inherit;
+
+    margin-top: 25px;
+}
+
+
+.cta-route-wrapper {
+    /* border: 1px solid red; */
+
+    width: inherit;
+
+    margin-bottom: 150px;
 }

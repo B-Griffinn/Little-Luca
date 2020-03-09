@@ -26,12 +26,8 @@ Footer
 function Home() {
     return (
         <div className="home homewrapper">
-            <div>
             <CTA />
-            </div>
-            <div>
             <img className="home-img" src={brand} alt="Since 1980 Little Luca Speciality Sandwich Shop"/>
-            </div>
         </div>
     )
 }

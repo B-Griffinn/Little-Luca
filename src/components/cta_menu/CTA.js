@@ -25,9 +25,9 @@ import Locations from './Locations';
 
 function CTA() {
     return (
-        <div className="cta-wrapper" >
+        <div className="cta-wrapper">
             <Router>
-                <div className="cta-links">
+                    <div className="cta-link-wrapper">
                     <Link to="orderonline">Order Online</Link>
                         <br/>
                     <Link to="aboutus">About Us</Link>
@@ -37,8 +37,9 @@ function CTA() {
                     <Link to="jobs">Job Opportunities</Link>
                         <br/>
                     <Link to="locations">Locations</Link>
-                </div>
-                <div className="cta-routes">
+                    </div>
+
+                    <div className="cta-route-wrapper">
                     <Route exact path="/orderonline">
                         <OrderOnline />
                     </Route>
@@ -46,7 +47,6 @@ function CTA() {
                     <Route path="/aboutus">
                         <AboutUs />
                     </Route>
-
                     <Route path="/emiallist">
                         <EmailList />
                     </Route>
@@ -58,7 +58,7 @@ function CTA() {
                     <Route path="/locations">
                         <Locations />
                     </Route>
-                </div>
+                    </div>
             </Router>
         </div>
     )
