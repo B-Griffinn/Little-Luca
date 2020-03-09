@@ -1,0 +1,23 @@
+.navbar-nav {
+    /* border: 1px solid red; */
+    border-radius: 7px;
+
+    /* background-color: ; */
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: auto;
+
+    margin: 0 5% 0 5%;
+    padding-top: 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #34495E;
+}
+
+

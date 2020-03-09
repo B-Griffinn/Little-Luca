@@ -28,15 +28,15 @@ function CTA() {
         <div className="cta-wrapper">
             <Router>
                     <div className="cta-link-wrapper">
-                    <Link to="orderonline">Order Online</Link>
+                    <Link className="cta-links" to="orderonline">Order Online</Link> |
                         <br/>
-                    <Link to="aboutus">About Us</Link>
+                    <Link className="cta-links" to="aboutus">About Us</Link> |
                         <br/>
-                    <Link to="emiallist">Email List</Link>
+                    <Link className="cta-links" to="emiallist">Email List</Link> |
                         <br/>
-                    <Link to="jobs">Job Opportunities</Link>
+                    <Link className="cta-links" to="jobs">Job Opportunities</Link> |
                         <br/>
-                    <Link to="locations">Locations</Link>
+                    <Link className="cta-links" to="locations">Locations</Link>
                     </div>
 
                     <div className="cta-route-wrapper">

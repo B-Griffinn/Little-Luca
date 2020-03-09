@@ -1,7 +1,7 @@
 .cta-wrapper {
     /* border: 1px solid blue; */
 
-    width: 500px;
+    width: 550px;
 
     display: flex;
     flex-direction: row;
@@ -30,4 +30,10 @@
     width: inherit;
 
     margin-bottom: 150px;
+}
+
+.cta-links {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: #34495E;
 }

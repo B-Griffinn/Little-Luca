@@ -1,4 +1,5 @@
 import React from 'react';
+import './navbar.css'
 
 import {
     BrowserRouter as Router,
@@ -25,17 +26,16 @@ Nav bar
 function NavBar(){
     return (
         <Router>
-        <div>
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/menu">Menu</Link>
-                <Link to="/catering">Catering</Link>
-                <Link to="/famoussauce">Famous Sauce</Link>
-                <Link to="/contactus">Contact Us</Link>
+            <nav className="navbar-nav">
+                <Link className="nav-links" to="/">Home</Link>
+                <Link className="nav-links" to="/menu">Menu</Link>
+                <Link className="nav-links" to="/catering">Catering</Link>
+                <Link className="nav-links" to="/famoussauce">Famous Sauce</Link>
+                <Link className="nav-links" to="/contactus">Contact Us</Link>
             </nav> 
 
 
-
+            
             <Switch>
                 <Route exact path="/">
                     <Home/>
@@ -53,7 +53,6 @@ function NavBar(){
                     <ContactUs />
                 </Route>
             </Switch>
-        </div>
         </Router>
     )
 }
