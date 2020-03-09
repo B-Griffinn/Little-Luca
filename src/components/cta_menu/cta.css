@@ -1,0 +1,23 @@
+.cta-wrapper {
+    border: 1px solid black;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
+
+.cta-routes {
+    /* border: 1px solid black;  */
+}
+
+.cta-links {
+    /* border: 1px solid black;  */
+
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 50%;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import menu from '../../docsFolder/menu.jpg';
+import menupdf from '../../docsFolder/menu.pdf';
 console.log(menu)
 
 
@@ -7,7 +8,9 @@ console.log(menu)
 function Menu() {
     return (
         <div>
-            <img src={menu} alt="PDF MENU"/>
+            <a href={menupdf} download="little-luca-menu">
+                <img src={menu} alt="PDF MENU"/>
+            </a>
         </div>
     )
 }

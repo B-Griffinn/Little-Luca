@@ -1,0 +1,24 @@
+.homewrapper {
+    border: 1px solid blue;
+    margin: 2% 5% 5% 2%;
+
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+/*
+- home img styling
+*/
+
+.home-img {
+    border: 1px solid red;
+
+    /* margin: 0 50% 0 0; */
+
+
+    align-self: flex-start;
+    /* width: 85%;
+    height: 400px; */
+}

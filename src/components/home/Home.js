@@ -1,7 +1,7 @@
 import React from 'react';
-
+import './home.css'
+import CTA from '../cta_menu/CTA';
 import brand from '../../docsFolder/brand.jpeg';
-import CTA from '../cta menu/CTA';
 
 /*
 
@@ -25,9 +25,13 @@ Footer
 
 function Home() {
     return (
-        <div>
-            <img src={brand} alt="Since 1980 Little Luca Speciality Sandwich Shop"/>
-            <CTA/>
+        <div className="home homewrapper">
+            <div>
+            <CTA />
+            </div>
+            <div>
+            <img className="home-img" src={brand} alt="Since 1980 Little Luca Speciality Sandwich Shop"/>
+            </div>
         </div>
     )
 }

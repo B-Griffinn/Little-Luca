@@ -1,5 +1,5 @@
 import React from 'react';
-import Locations from '../cta menu/Locations';
+import Locations from '../cta_menu/Locations';
 
 function Catering() {
     return (

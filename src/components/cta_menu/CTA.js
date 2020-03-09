@@ -1,4 +1,5 @@
 import React from 'react';
+import './cta.css'
 import {
     BrowserRouter as Router,
     Switch,
@@ -24,9 +25,9 @@ import Locations from './Locations';
 
 function CTA() {
     return (
-        <div>
+        <div className="cta-wrapper" >
             <Router>
-                <div>
+                <div className="cta-links">
                     <Link to="orderonline">Order Online</Link>
                         <br/>
                     <Link to="aboutus">About Us</Link>
@@ -36,8 +37,8 @@ function CTA() {
                     <Link to="jobs">Job Opportunities</Link>
                         <br/>
                     <Link to="locations">Locations</Link>
-
-
+                </div>
+                <div className="cta-routes">
                     <Route exact path="/orderonline">
                         <OrderOnline />
                     </Route>

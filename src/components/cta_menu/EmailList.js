@@ -3,7 +3,10 @@ import React from 'react';
 function EmailList() {
     return (
         <div>
-           NO WORKING LINK AT THIS TIME
+            <p>
+                <br/>
+                NOT WORKING LINK AT THIS TIME
+            </p>
         </div>
     )
 }
