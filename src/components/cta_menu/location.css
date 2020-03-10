@@ -1,0 +1,13 @@
+.south-city-para {
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 275px;
+}

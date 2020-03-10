@@ -27,7 +27,9 @@ function Home() {
     return (
         <div className="home homewrapper">
             <CTA />
-            <img className="home-img" src={brand} alt="Since 1980 Little Luca Speciality Sandwich Shop"/>
+            <div className="home-img">
+            <img  src={brand} alt="Since 1980 Little Luca Speciality Sandwich Shop"/>
+            </div>
         </div>
     )
 }

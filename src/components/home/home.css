@@ -1,5 +1,5 @@
 .homewrapper {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     display: flex;
     flex-direction: row-reverse;
@@ -8,3 +8,20 @@
     margin-top: 50px;
 }
 
+.home-img {
+    /* border: 2px solid yellow; */
+
+    width: 400px;
+    height: 230px;
+
+    margin-top: 3%;
+}
+
+.home-img img {  
+    width: 100%;
+    height: auto;
+}
+
+img {
+    border-radius: 7px;
+}
