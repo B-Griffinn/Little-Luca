@@ -1,13 +1,26 @@
+.location-wrapper {
+    height: 97.3vim;
+}
+
 .south-city-para {
     display: flex;
     flex-direction: column;
+
+    font-size: 1rem;
 }
 
 .location {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     display: flex;
     flex-direction: column;
 
-    height: 275px;
+}
+
+.map-location {
+    /* border: 1px solid blue; */
+
+    align-self: center;
+    
+    margin-top: 15px;
 }

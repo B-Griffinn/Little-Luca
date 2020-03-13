@@ -1,0 +1,17 @@
+.catering-wrapper {
+    border: 1px solid blue;
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.catering-para {
+    border: 1px solid red;
+
+    max-width: 700px;
+    
+}

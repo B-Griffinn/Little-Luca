@@ -1,6 +1,6 @@
 .cta-wrapper {
     border: 1px solid blue;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 
     width: 550px;
     height: 600px;
@@ -13,7 +13,7 @@
 }
 
 .cta-link-wrapper {
-    /* border: 1px solid black; */
+    border: 1px solid black;
 
     display: flex;
     flex-direction: row;
@@ -38,4 +38,9 @@
     /* border: 1px solid red; */
     text-decoration: none;
     color: #34495E;
+}
+
+.location-title {
+    font-size: 1.12rem;
+    font-weight: bold;
 }

@@ -1,0 +1,23 @@
+.menu-wrapper {
+    /* border: 1px solid red; */
+
+    height: auto;
+}
+
+
+.menu-img-wrapper {
+    /* border: 1px solid red; */
+
+    width: 500px;
+    height: 230px;
+
+    margin-top: 3%;
+
+    margin-left: 37%;
+}
+
+
+.menu-img-wrapper img {  
+    width: 100%;
+    height: 750px;
+} 

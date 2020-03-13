@@ -1,8 +1,10 @@
+/*
+
 .navbar-nav {
-    /* border: 1px solid red; */
+     border: 1px solid red; 
     border-radius: 7px;
 
-    /* background-color: ; */
+     background-color: ; 
     text-decoration: none;
 
     display: flex;
@@ -20,4 +22,8 @@
     color: #34495E;
 }
 
+*/
 
+.nav-wrapper {
+    background-color: #6899e8;
+}

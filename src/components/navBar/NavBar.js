@@ -26,12 +26,16 @@ Nav bar
 function NavBar(){
     return (
         <Router>
-            <nav className="navbar-nav">
-                <Link className="nav-links" to="/">Home</Link>
-                <Link className="nav-links" to="/menu">Menu</Link>
-                <Link className="nav-links" to="/catering">Catering</Link>
-                <Link className="nav-links" to="/famoussauce">Famous Sauce</Link>
-                <Link className="nav-links" to="/contactus">Contact Us</Link>
+            <nav className="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                <li><Link className="nav-links" to="/">Home</Link></li>
+                <li><Link className="nav-links" to="/menu">Menu</Link></li>
+                <li><Link className="nav-links" to="/catering">Catering</Link></li>
+                <li><Link className="nav-links" to="/famoussauce">Famous Sauce</Link></li>
+                <li><Link className="nav-links" to="/contactus">Contact Us</Link></li>
+                </ul>
             </nav> 
 
 

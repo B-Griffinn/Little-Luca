@@ -1,13 +1,17 @@
 import React from 'react';
-import Locations from '../cta_menu/Locations';
+import './catering.css'
 
 function Catering() {
     return (
-        <div>
+        <div
+            className="catering-wrapper"
+        >
             <h1>
                 CATERING
             </h1>
-            <p>
+            <p
+                className="catering-para"
+            >
             SPECIALTY SERVICES AND CATERING
             Bag Lunches
             Includes: A small sandwich, soda, chips and cookie.
