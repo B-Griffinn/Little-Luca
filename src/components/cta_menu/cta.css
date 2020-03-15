@@ -1,5 +1,5 @@
 .cta-wrapper {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* background-color: whitesmoke; */
 
     width: 550px;
@@ -13,7 +13,7 @@
 }
 
 .cta-link-wrapper {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
     display: flex;
     flex-direction: row;
