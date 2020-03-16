@@ -3,7 +3,7 @@ import React from 'react';
 function AboutUs() {
     return (
         <div>
-            <h1>ABOUT Little Lucca</h1>
+            <h1>Little Lucca</h1>
             <p>
             Little Lucca is an actual historic landmark of the city of South San Francisco, established in 1980.
 

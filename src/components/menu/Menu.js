@@ -13,6 +13,11 @@ function Menu() {
                 <img src={menu} alt="PDF MENU"/>
                 </div>
             </a>
+            <p
+                className="menu-para"
+            >
+                Please click on the menu if you would like to download the image or you may click/tap and hold to save to your mobile device. 
+            </p>
         </div>
     )
 }

@@ -1,12 +1,15 @@
 import React from 'react';
-
+import './FamousSauce.css'
 
 function FamousSauce() {
     return (
-        <div>
-            <h1>OUR FAMOUS SAUCE</h1>
-
-            <p>
+        <div
+           className="sauce-wrapper" 
+        >
+            <h1>Our Famous Sauce</h1>
+            <p
+                className="sauce-para"    
+            >
                 The Original Garlic Sauce
 
                 The Hot Pepper Sauce
