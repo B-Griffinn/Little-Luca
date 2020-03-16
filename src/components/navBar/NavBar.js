@@ -14,6 +14,7 @@ import Home from '../home/Home'
 import Catering from './Catering'
 import FamousSauce from './FamousSauce'
 import ContactUs from './ContactUs'
+import logo from '../../docsFolder/brand.jpeg'
 
 /*
 Nav bar
@@ -27,7 +28,20 @@ function NavBar(){
     return (
         <Router>
             <nav className="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
+                <a
+                    href={logo}
+                    class="brand-logo"
+                >
+                <div
+                    // className="nav-brand-img"
+                >
+                <img
+                    src={logo}
+                    className="nav-brand-img"
+                    alt="Little Lucca's Brand"
+                />
+                </div>    
+                </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                 <li><Link className="nav-links" to="/">Home</Link></li>

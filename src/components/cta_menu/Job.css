@@ -1,0 +1,14 @@
+.jobs-wrapper {
+    border: 1px solid #0a161d63;
+    border-radius: 7px;
+    background-color: #ececec;
+
+    height: 350px;
+    width: 538px;
+
+    padding: 10px;
+}
+
+.jobs-para {
+    margin: 5px;   
+}

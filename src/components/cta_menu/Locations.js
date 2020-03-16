@@ -4,7 +4,9 @@ import './location.css'
 function Locations() {
     return (
         <div className="location-wrapper">
-            <div className="south-city">
+            <div
+                className="south-city city-wrapper"
+            >
                 <p 
                     className="south-city-para"
                 >            
@@ -45,7 +47,7 @@ function Locations() {
             </div>
 
             <div 
-                className="burlingame"
+                className="burlingame city-wrapper"
             >
             <p 
                 className="south-city-para"

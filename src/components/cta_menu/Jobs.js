@@ -1,11 +1,16 @@
 import React from 'react';
+import './Job.css'
 
 import apply from '../../docsFolder/apply.pdf'
 
 function Jobs() {
     return (
-        <div>
-            <p>
+        <div
+            className="jobs-wrapper"
+        >
+            <p
+                className="jobs-para"
+            >
                 Please return the completed application to a Little Lucca Location near you.
             </p>
             <p>

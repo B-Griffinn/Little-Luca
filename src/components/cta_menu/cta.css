@@ -14,6 +14,9 @@
 .cta-link-wrapper {
     /* border: 1px solid black; */
 
+
+    text-decoration: underline;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,7 +33,7 @@
 
     width: inherit;
 
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
 
 .cta-links {
