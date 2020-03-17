@@ -3,7 +3,7 @@ import './ContactUs.css'
 
 function Contactus() {
     return (
-<div className="location-wrapper">
+<div className="contact-us-wrapper">
             <div className="south-city">
                 <p 
                     className="south-city-para"

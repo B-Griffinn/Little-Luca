@@ -1,7 +1,7 @@
 .location-wrapper {
-    height: auto;
+    margin-top: 20px;
 
-    /* border: 1px solid red; */
+    /* border:1px solid red; */
 }
 
 .city-wrapper {
@@ -9,10 +9,11 @@
     border-radius: 7px;
     background-color: #ececec;
 
-    height: auto;
+    height: inherit;
     width: 538px;
 
     padding: 10px;
+    margin-left: 5px;
 }
 
 .south-city-para {

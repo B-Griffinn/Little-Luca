@@ -28,9 +28,9 @@ function CTA() {
         <div className="cta-wrapper">
             <Router>
                     <div className="cta-link-wrapper">
-                    <Link className="cta-links" to="orderonline">Order Online</Link> |
-                        <br/>
                     <Link className="cta-links" to="aboutus">About Us</Link> |
+                        <br/>
+                    <Link className="cta-links" to="orderonline">Order Online</Link> |
                         <br/>
                     <Link className="cta-links" to="emiallist">Email List</Link> |
                         <br/>
