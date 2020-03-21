@@ -9,23 +9,36 @@
     border-radius: 7px;
     background-color: #ececec;
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
     height: inherit;
     width: 538px;
 
     padding: 10px;
     margin-left: 5px;
+
+    display: flex;
+    flex-direction: row;
 }
 
-.south-city-para {
+.location-para {
+    /* border: 1px solid red; */
+
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 275px;
 
     font-size: 1rem;
 
     margin: 5px;   
 }
 
-.location {
+.map-wrapper {
     /* border: 1px solid red; */
 
     display: flex;
@@ -33,10 +46,17 @@
 
 }
 
-.map-location {
+.map-wrapper {
     /* border: 1px solid blue; */
 
     align-self: center;
     
     margin-top: 15px;
+}
+
+.map-location {
+    /* border: 1px solid blue; */
+
+    height: inherit;
+    width: 150px;
 }
