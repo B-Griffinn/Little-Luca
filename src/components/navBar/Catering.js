@@ -4,6 +4,9 @@ import './catering.css'
 function Catering() {
     return (
         <div
+            className="catering"
+        >
+        <div
             className="catering-wrapper"
         >
             <h1>
@@ -21,6 +24,7 @@ function Catering() {
             Meat and Cheese Trays
             Call your nearest store for more details. ALL CATERING ORDERS AND INQUIRIES MUST BE MADE BY PHONE!
             </p>
+        </div>
         </div>
     )
 }

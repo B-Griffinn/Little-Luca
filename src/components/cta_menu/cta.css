@@ -12,9 +12,9 @@
 }
 
 .cta-link-wrapper {
-    /* border: 1px solid black;      */
-
-
+    border: 1px solid #0a161d63;
+    border-radius: 7px;
+    background-color: #ececec;
     text-decoration: underline;
 
     display: flex;
@@ -31,7 +31,6 @@
 
 .cta-route-wrapper {
     /* border: 1px solid red; */
-
     width: inherit;
 
     margin-bottom: 210px;
@@ -40,7 +39,7 @@
 .cta-links {
     /* border: 1px solid red; */
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.459);
+    color: black;
 }
 
 .location-title {

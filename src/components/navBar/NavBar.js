@@ -16,14 +16,6 @@ import FamousSauce from './FamousSauce'
 import ContactUs from './ContactUs'
 import logo from '../../docsFolder/brand.jpeg'
 
-/*
-Nav bar
-    - order online
-    - about us
-    - jobs
-    - location(s)
-*/
-
 function NavBar(){
     return (
         <Router>
@@ -32,7 +24,7 @@ function NavBar(){
                     href={logo}
                     class="brand-logo"
                 >
-                <div
+                {/* <div
                     // className="nav-brand-img"
                 >
                 <img
@@ -40,7 +32,7 @@ function NavBar(){
                     className="nav-brand-img"
                     alt="Little Lucca's Brand"
                 />
-                </div>    
+                </div>     */}
                 </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">

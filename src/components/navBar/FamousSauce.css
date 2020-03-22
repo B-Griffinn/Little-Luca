@@ -1,13 +1,17 @@
 .sauce-wrapper {
     /* border: 1px solid blue; */
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    margin-left: 32.5%;
 
-    max-height: 90%;
-    
-    
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    border: 1px solid #0a161d63;
+    border-radius: 7px;
+    background-color: #ececec;
 
+    height: 350px;
+    width: 550px;
+
+    padding: 10px;
 }
 
 

@@ -1,11 +1,24 @@
 .nav-wrapper {
     /* border: 1px solid red; */
+    background-color: #008080;
 
-    background-color: #3dac57;
 
     height: 80px;
 
     padding-top: 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-links {
+    border-radius: 7px;
+}
+.nav-links:hover {
+    background-color: #696969;
+    border-radius: 7px;
+        
 }
 
 
