@@ -3,12 +3,12 @@ import './ContactUs.css'
 
 function Contactus() {
     return (
-        <div className="location-wrapper">
+        <div className="contact-us-wrapper">
             <div
-                className="south-city city-wrapper"
+                className="contact-us"
             >
                 <p 
-                    className="location-para"
+                    className="contact-location-para"
                 >            
                 <span
                     className="location-title"
@@ -49,10 +49,10 @@ function Contactus() {
             </div>
 
             <div 
-                className="burlingame city-wrapper"
+                className="contact-us"
             >
             <p 
-                className="location-para"
+                className="contact-location-para"
             >            
                 <span
                     className="location-title"

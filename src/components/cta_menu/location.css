@@ -1,7 +1,5 @@
 .location-wrapper {
     margin-top: 20px;
-
-    /* border:1px solid red; */
 }
 
 .city-wrapper {
@@ -15,13 +13,9 @@
     justify-content: space-evenly;
 
     height: inherit;
-    width: 538px;
+    width: 550px;
 
     padding: 10px;
-    margin-left: 5px;
-
-    display: flex;
-    flex-direction: row;
 }
 
 .location-para {

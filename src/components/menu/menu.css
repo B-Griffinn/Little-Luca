@@ -1,38 +1,54 @@
 .menu-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+    /* border: 1px solid red; */
 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+        
+    background-image: url('../../docsFolder/lombard.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    width: 100%;
+    height: 97.3vmin;
+}
 
 .menu-img-wrapper {
+    /* border: 1px solid red; */
+    /* margin: 20px 0 20px 0;  */
+
+    width: 200px;
+    height: 120px;
+
+    /* border: 1px solid #0a161d63;
+    border-radius: 7px;
+    background-color: #ececec; */
+
+}
+
+.menu-img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-para-wrapper {
+    /* border: 1px solid red; */
     border: 1px solid #0a161d63;
     border-radius: 7px;
     background-color: #ececec;
 
-    width: 500px;
-    height: fit-content;
+    width: 550px;
+    height: 150px;
 
-    margin-top: 3%;
-    margin-left: 37%;
+    padding: 20px;
+    margin-top: 200px;
 }
 
-
-.menu-img-wrapper img {  
-    width: auto;
-    height: 500px;
-} 
-
-.menu-para {
-    border: 1px solid #0a161d63;
-    border-radius: 7px;
-    background-color: #ececec;
-
-    height: 500px;
-    max-width: 400px;
-
-    margin-right: 15%;
-    /* margin-top: 10%; */
-
-    padding: 10px;
-}
+/* .menu-para {  
+    border: 1px solid red;
+    width: 350px;
+    margin-top: 50%;
+    margin-left: 80px;
+} */

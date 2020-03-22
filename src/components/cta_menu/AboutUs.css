@@ -1,16 +1,19 @@
 .about-us-wrapper {
-    /* border: 1px solid red; */
+   
+    
     border: 1px solid #0a161d63;
     border-radius: 7px;
     background-color: #ececec;
 
     height: 350px;
-    width: 538px;
-
+    width: 550px;
+    
     padding: 10px;
-    margin-left: 5px;
+    
+    margin-top: 20px;
 }
 
 .about-us-para {
     margin: 5px;   
+    max-width: 545px; 
 }

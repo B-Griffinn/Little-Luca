@@ -4,11 +4,13 @@
     background-color: #ececec;
 
     height: 350px;
-    width: 538px;
+    width: 550px;
 
+    margin-top: 20px;
     padding: 10px;
 }
 
 .order-online-para {
     margin: 5px;   
+    max-width: 545px; 
 }
